@@ -2,7 +2,7 @@ const Express = require("express");
 const BodyParser = require("body-parser");
 const MongoClient = require("mongodb").MongoClient;
 const ObjectId = require("mongodb").ObjectID;
-const CONNECTION_URL = 'mongodb+srv://lishakothari:Lisha123@cluster0.iadbi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority' ;
+const CONNECTION_URL = 'mongodb+srv://<username>:<password>@cluster0.iadbi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority' ;
 const DATABASE_NAME = "contact-api";
 
 
