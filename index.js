@@ -9,8 +9,8 @@ client.connect().then((mClient) => {
 
     db.collection("contact").insertOne(
         {
-            name :"Lisha kothari",
-            phone: "7208212892",
+            name :"Lisha Kothari",
+            phone: "8393231456",
             email:"lishakothari02@gmail.com" 
         },
 
