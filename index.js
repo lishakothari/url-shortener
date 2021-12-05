@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb");
 
 const client = new MongoClient(
-    "mongodb+srv://lishakothari:Lisha123@cluster0.iadbi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    "mongodb+srv://<username>:<password>@cluster0.iadbi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 );
 
 client.connect().then((mClient) => {
